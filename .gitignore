@@ -1,0 +1,13 @@
+# Ignore virtual environments
+venv/
+
+# Ignore data
+artifacts\data
+
+# Ignore MLflow logs
+mlruns/
+
+# Ignore system files
+__pycache__/
+*.pyc
+.DS_Store
