@@ -10,30 +10,33 @@ This project aims to build a machine learning model to predict loan approval sta
 
 2. Preprocess the data, including encoding categorical variables, and scaling numerical features, standardizing all features.
 
-3. Use cross-validation to get generalized results for hyperparmerters tuning.
+3. Use cross-validation to get generalized results for hyperparameters tuning.
 
 4. Use pipeline sklearn class for training and evaluation.
 
 4. Train and evaluate classification models to predict loan approval status.
 
-5. Hundling imbalanced dataset.
+5. Handling imbalanced classes.
 
-5. Optimize the model to achieve high F1 score, because both recall and precision are essentiall for loan approval.
+5. Optimize the model to achieve a high F1 score, because recall and precision are essential for loan approval.
 
 # Dataset Overview
 
 The dataset contains:
 
-    - **Features:** Applicant-related details, such as income, marital status, credit history, etc.
+- **Features:** Applicant-related details, such as income, marital status, credit history, etc.
 
-    - **Target Variable:** Loan status (Approved or Not Approved).
+- **Target Variable:** Loan status (Approved or Not Approved).
 
 By analyzing and modeling this data, we aim to create a robust and interpretable solution for loan approval prediction, which could potentially aid financial institutions in making more data-driven decisions
 
 [dataset link](https://www.kaggle.com/datasets/taweilo/loan-approval-classification-data)
 
+## Results
+
+
 ## Challenges
 
 
 ## Acknowledgment
-I used ChatGPT in writing this readme file.
+This Readme file was written with the assistance of ChatGPT
