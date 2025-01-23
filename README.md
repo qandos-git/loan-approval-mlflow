@@ -33,20 +33,20 @@ By analyzing and modeling this data, we aim to create a robust and interpretable
 [dataset link](https://www.kaggle.com/datasets/taweilo/loan-approval-classification-data)
 
 ## Results
-![Results](artifacts\images\image.png)
+The third column represents the best experiment results
+![Results](https://github.com/qandos-git/loan-approval-mlflow/blob/main/artifacts/images/image.png)
 
-We can see after comparing all the experiments that **RandomForestClassifier with SMOTE** gives the most robust performance, so we will test it.
+After comparing all the experiments, we can see that **RandomForestClassifier with SMOTE** gives the most robust performance, so we will test it.
 
 **Model test results:**
 
               precision    recall  f1-score   support
 
-           0       0.94      0.96      **0.95**      6987
-           1       0.83      0.79      **0.81**      1965
-
+           0       0.94      0.96      0.95      6987
+           1       0.83      0.79      0.81      1965
     accuracy                           0.92      8952
-   macro avg       0.89      0.87      0.88      8952
-weighted avg       0.92      0.92      0.92      8952
+     macro avg       0.89      0.87      0.88      8952
+    weighted avg       0.92      0.92      0.92      8952
 
 As we care about the two classes equally, this performance is very good.
 so, we will register the model and use it.
